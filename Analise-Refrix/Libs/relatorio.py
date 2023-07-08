@@ -27,6 +27,5 @@ class RelatorioRefrix:
     def convertExcel(self, file):
         df = pd.DataFrame(file)
         df.to_excel('CampanhaRefrix.xlsx')
-
                 
             

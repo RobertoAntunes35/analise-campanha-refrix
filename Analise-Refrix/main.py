@@ -22,7 +22,6 @@ if os.path.exists(config.file_path + name_file_pedidos) and os.path.exists(confi
 else:
     sys.exit("Arquivos não encontrados.")
 
-
 # Renomeando Colunas, caso necessário
 rename_colum_pedido = {
     'Combinação22':'codigo_vendedor',
